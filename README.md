@@ -1,4 +1,4 @@
-# USBC Registration (UI Docs)
+# hs-react-example
 
 ## Get Started
 1. **Run the example app**. `npm start -s`

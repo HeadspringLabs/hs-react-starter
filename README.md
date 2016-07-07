@@ -33,11 +33,13 @@ This will run the automated build process, start up a webserver, and open the ap
 
 ## FAQ
 
-### TODO
+### Is this a complete example?
+In simple words, no.  This is no a template or the only way, but it serve the purpose of simplifying the starting process of a new project.  It's a work-in-progress project and will have changes in the future.  For now this is what's pending:
 
-1. Add tests (maintain test coverage at >90%)
-2. Use aliases on webpack for the Shared components and tools
+1. Add more tests (maintain test coverage at >90%)
+2. Use webpack aliases for the Shared components and tools
 3. Redefine ESLint rules
+4. Add more interaction to the workflow for a full CRUD operation.
 
 ### What do the scripts in package.json do?
 Unfortunately, scripts in package.json can't be commented inline because the JSON spec doesn't support comments, but here is the information about the package.json.  

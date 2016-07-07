@@ -1,0 +1,22 @@
+import React from 'react';
+import {shallow} from 'enzyme';
+import {expect} from 'chai';
+import AboutPage from './AboutPage.jsx';
+
+describe('<AboutPage />', () => {
+  it('should have a header called \'About\'', () => {
+    const wrapper = shallow(<AboutPage />);
+    const actual = wrapper.find('h2').text();
+    const expected = 'About';
+
+    expect(actual).to.equal(expected);
+  });
+
+  it('should link to an unknown route path', () => {
+    const wrapper = shallow(<AboutPage />);
+    const actual = wrapper.findWhere(n => n.prop('to') === '/badlink').length;
+    const expected = 1;
+
+    expect(actual).to.be.equal(expected);
+  });
+});

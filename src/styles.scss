@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+/* Styles */
+body {
+  background-color: $default-background-color;
+  color: $default-font-color;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+td {
+	padding: 12px;
+}
+
+h2 {
+	color: $vin-blue;
+}

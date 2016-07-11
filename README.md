@@ -291,3 +291,9 @@ Using the `npm run test:cover` command to run the tests, building a code coverag
       "ctrl-w": "tab-switcher:close"
       "ctrl-s": "tab-switcher:save"
     ````
+
+### Where is the main style located?
+
+The main style is loaded via [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)in the `src/index.html`.  Here, we are loading Bootstrap [Material Design Theme](https://bootswatch.com/paper/) and [FontAwesome](http://fontawesome.io/icons/) for our font icons.
+
+**Note: Ideally we'll bundle these dependencies into `vendor.bundle.js` and customize it based on what's needed.**

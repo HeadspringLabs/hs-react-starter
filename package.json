@@ -1,12 +1,12 @@
 {
-  "name": "usbc-reg",
+  "name": "hs-react-starter",
   "private": true,
   "version": "0.1.0",
   "engines": {
     "node": "4.4.X",
     "npm": "3.9.X"
   },
-  "description": "USBC Registration UI project built on React and Redux",
+  "description": "Headspring react starter",
   "scripts": {
     "start-message": "babel-node tools/startMessage.js",
     "prestart": "npm-run-all --parallel start-message remove-dist",
